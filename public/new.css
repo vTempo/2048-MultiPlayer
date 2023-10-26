@@ -1,0 +1,191 @@
+body {
+  background-color: #ffeedb;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+form {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 80%;
+  width: 80%;
+  border: #D03C3C;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form h3 {
+  font-size: 3em;
+}
+
+
+form > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+}
+
+button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  height: 30vh;
+  width: 50vh;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 5rem;
+}
+
+.arrow-disabled {
+  color: rgb(117, 117, 117);
+}
+
+
+.grid {
+  width: 400px;
+  height: 400px;
+  background-color: #ffeedb;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .grid div { */
+.block {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background-color: #dfd4c6;
+  font-size: 24pt;
+  font-family: 'Exo 2', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1-background {
+  background-color: #ffb3c0;
+}
+
+.p2-background {
+  background-color: #ff8989;
+}
+
+#game {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2em;
+}
+
+#result {
+  position: fixed;
+  height: 58%;
+  width: 30%;
+  transform: translate(110%, 10%);
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #fff;
+  text-shadow: 0 0 1em white;
+}
+
+#result a {
+  height: 100%;
+  width: 100%;
+}
+
+/* Block Styles */
+
+.block-2 {
+  background-color: #FFF5F5;
+  color: #ED2C2C;
+}
+
+.block-4 {
+  background-color: #FFE7E7;
+  color: #D46A6A;
+}
+
+.block-8 {
+  background-color: #FFCECE;
+  color: #E04747;
+}
+
+.block-16 {
+  background-color: #FFA6A6;
+  color: #9F4C4C;
+}
+
+.block-32 {
+  background-color: #EF8181;
+  color: #D03C3C;
+}
+
+.block-64 {
+  background-color: #D87070;
+  color: #FFE3E3;
+}
+
+.block-128 {
+  background-color: #CB5B5B;
+  color: #FFE3E3;
+}
+
+.block-256 {
+  background-color: #C23535;
+  color: #FFDFDF;
+}
+
+.block-512 {
+  background-color: #DE1F1F;
+  color: #FFEBEB;
+}
+
+.block-1024 {
+  background-color: #EF1616;
+  color: #FFEBEB;
+}
+
+.block-2048 {
+  background-color: black;
+  color: #FB8888;
+}
+
+.hidden {
+  display: none !important;
+}
