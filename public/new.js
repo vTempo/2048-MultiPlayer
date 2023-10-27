@@ -324,7 +324,7 @@
   function checkMoveX() {
     for (let i = 0; i < height; i++) {
       for (let j = 0; j < width - 1; j++) {
-        if (squares[i * height + j].innerHTML === squares[i * height + j + 1].innerHTML) {
+        if (squares[i * width + j].innerHTML === squares[i * width + j + 1].innerHTML) {
           return true;
         }
       }
@@ -335,7 +335,7 @@
   function checkMoveY() {
     for (let i = 0; i < height - 1; i++) {
       for (let j = 0; j < width; j++) {
-        if (squares[i * height + j].innerHTML === squares[(i + 1) * height + j].innerHTML) {
+        if (squares[i * width + j].innerHTML === squares[(i + 1) * width + j].innerHTML) {
           return true;
         }
       }
